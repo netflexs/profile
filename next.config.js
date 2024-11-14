@@ -1,4 +1,6 @@
 module.exports = {
+	basePath: '/profile', // nama repo lo di GitHub
+  	output: 'export', // ini biar Next.js nge-build ke file static
 	poweredByHeader: false,
 	assetPrefix: process.env.ASSET_HOST || '',
 	productionBrowserSourceMaps: process.env.NODE_ENV === 'production',
